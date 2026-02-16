@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Cargar archivo.</h1>
+     
+    <p>Archivo de texto.</p>
+    <input type="file" id="SubirArchivo" accept=".txt"> <br><br>
+
+     <p>Archivo de imagen.</p>  
+    <input type="file" id="SubirImagen" accept="image/*"> <br><br>
+
+     <p>Archivo PDF.</p>    
+    <input type="file" id="SubirPdf"    accept="application/pdf"> <br><br>
+
+    <button id="CargarContenido">Cargar</button>
+
+    <p id="MostrarContenido"></p>
+    <img id="MostrarImagen" src="" alt="Imagen cargada">
+    <iframe id="MostrarPdf" src="" style="width: 100%; height: 500px;"></iframe>
+     
+</body>
+<script src="script.js"></script>
+</html>
